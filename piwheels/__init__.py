@@ -79,7 +79,7 @@ __requires__ = ['configargparse', 'pyzmq', 'voluptuous', 'cbor2']
 __extra_requires__ = {
     'monitor': ['urwid'],
     'master':  ['requests', 'sqlalchemy', 'psycopg2', 'chameleon', 'simplejson'],
-    'slave':   ['pip', 'wheel', 'python-dateutil'],
+    'slave':   ['pip', 'wheel', 'packaging', 'python-dateutil'],
     'logger':  ['lars', 'simplejson'],
     'test':    ['pytest', 'coverage'],
     'doc':     ['sphinx'],
